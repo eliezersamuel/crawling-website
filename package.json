@@ -1,0 +1,21 @@
+{
+	"name": "crawling-website",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/eliezersamuel/crawling-website.git",
+	"author": "eliezersamuel <eliezer_sss@hotmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon ./src/index.js"
+	},
+	"devDependencies": {
+		"eslint": "^7.14.0",
+		"eslint-config-prettier": "^6.15.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"puppeteer": "^5.5.0"
+	}
+}

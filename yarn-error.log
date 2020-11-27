@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\curl\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Nmap;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\Sdk\emulator;C:\Android\Sdk\tools;C:\Android\Sdk\tools\bin;C:\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\cmder;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Users\PC\AppData\Local\Yarn\bin;C:\Android\Sdk\emulator;C:\Android\Sdk\tools;C:\Android\Sdk\tools\bin;C:\Android\Sdk\platform-tools;C:\xampp\php;C:\Users\PC\AppData\Local\ComposerSetup\bin;C:\Users\PC\AppData\Roaming\Composer\vendor\bin;C:\Users\PC\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  15.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat 'C:\Users\PC\Desktop\crawling-website\node_modules\js-yaml'
+
+npm manifest: 
+  {
+  	"name": "crawling-website",
+  	"version": "1.0.0",
+  	"main": "index.js",
+  	"repository": "https://github.com/eliezersamuel/crawling-website.git",
+  	"author": "eliezersamuel <eliezer_sss@hotmail.com>",
+  	"license": "MIT",
+  	"scripts": {
+  		"dev": "nodemon ./src/index.js"
+  	},
+  	"devDependencies": {
+  		"eslint": "^7.14.0",
+  		"eslint-config-prettier": "^6.15.0",
+  		"eslint-plugin-prettier": "^3.1.4",
+  		"nodemon": "^2.0.6"
+  	},
+  	"dependencies": {
+  		"express": "^4.17.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

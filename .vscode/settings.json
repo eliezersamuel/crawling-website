@@ -1,0 +1,13 @@
+{
+	"window.zoomLevel": 0,
+	"editor.fontSize": 14,
+	"prettier.endOfLine": "lf",
+	"editor.fontWeight": "bold",
+	"explorer.confirmDelete": true,
+	"editor.wordWrap": "on",
+	"terminal.integrated.fontSize": 14,
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
+}
